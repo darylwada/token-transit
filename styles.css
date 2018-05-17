@@ -1,0 +1,142 @@
+.container {
+  margin: 0 auto;
+  width: 1300px;
+  font-family: 'Montserrat', serif;
+}
+
+.header {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 630px;
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+}
+
+.logo-area {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  color: rgb(48, 154, 209);
+}
+
+#logo {
+  height: 20px;
+  width: 20px;
+  fill: currentColor;
+}
+
+.links-area {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 200px;
+}
+
+.links-area > div {
+  display: inline-block;
+  color: white;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.header-center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+}
+
+.slogan {
+  margin-top: 80px;
+  font-family: 'Droid Serif', serif;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+}
+
+.title {
+  font-size: 54px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-download,
+.btn-demo {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(48, 154, 209);
+  margin: 50px auto 0 auto;
+  line-height: 50px;
+  border-radius: 3px;
+  clear: both;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-caption {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(120, 120, 120);
+}
+
+.hook,
+.action {
+  /* height: 200px; */
+  padding: 50px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  clear: both;
+}
+
+.hook-header,
+.demo-header {
+  /* margin-top: 50px; */
+  font-size: 30px;
+}
+
+.desc {
+  /* font-size: 12px; */
+  font-family: 'Droid Serif', serif;
+  color: rgb(140, 140, 140);
+  -webkit-font-smoothing: antialiased;
+}
+
+.demo {
+  margin: 0 100px;
+  height: 700px;
+  text-align: center;
+}
+
+.column {
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.phone-img {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.footer {
+  font-size: 10px;
+  clear: both;
+  height: 100px;
+}
+
+.links-area-bottom > div {
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 2px;
+  color: rgb(48, 154, 209);
+}
