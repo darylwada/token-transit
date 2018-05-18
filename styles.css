@@ -22,22 +22,27 @@
   background-size: cover;
 }
 
-.logo-area {
-  display: inline-block;
+.brand-area {
   position: absolute;
   top: 20px;
   left: 100px;
   color: rgb(48, 154, 209);
+  height: 20px;
+  width: 200px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
-.logo-area:hover {
+.brand-area:hover {
   cursor: pointer;
   color: rgb(41, 130, 181);
 }
 
 #logo {
+  float: left;
   height: 20px;
   width: 20px;
+  margin-right: 5px;
 }
 
 .links-area-top {
@@ -80,7 +85,7 @@
   color: white;
 }
 
-.title {
+.brand {
   font-size: 56px;
   font-weight: bold;
   color: white;

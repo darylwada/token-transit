@@ -64,7 +64,8 @@
        transform="translate(223.61588,299.16145)"
        id="logo"
        inkscape:label="#Logo"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       fill="rgb(48, 154, 209)" />
     <g
        id="g3727"
        transform="matrix(1.25,0,0,-1.25,-318.32811,1764.8952)" />
